@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 11</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img class="img-fluid me-2" src="images/logo.png" alt="" />
+            <div class="logo-txt">
+              <h1>Weather</h1>
+              <span>tagline goes here</span>
+            </div>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Live Cameras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Photo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navbar  -->
+      <!-- Start Home  -->
+      <section>
+        <div class="home">
+          <div class="container">
+            <div class="search position-relative">
+              <input
+                class="form-control txt-search rounded-4"
+                placeholder="Find Your Location..."
+                type="text"
+              />
+              <button
+                type="button"
+                class="btn-search btn btn-primary rounded-4 px-4"
+              >
+                Find
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Home -->
+      <!-- Start section Api -->
+      <section>
+        <div class="api text-white">
+          <div class="container">
+            <div class="row" id="apiBody">
+             
+             
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End section Api -->
+      <!-- Start Footer -->
+      <section>
+        <div class="footer">
+          <div class="container">
+            <div class="row mb-2">
+              <div class="col-md-8">
+                <div class="search position-relative">
+                  <input
+                    class="form-control txt-search rounded-4"
+                    placeholder="Enter Your Email to Subscribe"
+                    type="text"
+                  />
+                  <button
+                    type="button"
+                    class="btn-search btn btn-primary rounded-4 px-4"
+                  >
+                    subscribe
+                  </button>
+                </div>
+              </div>
+              <div class="col-md-3 offset-1">
+                <div class="social-links">
+                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <p class="p-foot">
+                  Copyright 2014 Company name. Designed by Themezy. All rights
+                  reserved
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
+
+<!-- eddfd01a9291499a81c203221232202 -->
+<!-- http://api.weatherapi.com/v1/forecast.json?key=eddfd01a9291499a81c203221232202&q=07112&days=7 -->
